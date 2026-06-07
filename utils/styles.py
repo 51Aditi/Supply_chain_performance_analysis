@@ -167,7 +167,9 @@ CSS = """
 html,body,[class*="css"]{ font-family:'Inter',sans-serif !important; }
 .main         { background:#0B1120 !important; }
 .block-container { padding:1.4rem 2rem !important; max-width:100% !important; }
-#MainMenu,footer,header      { visibility:hidden !important; }
+#MainMenu,footer {
+    visibility:hidden !important;
+}
 [data-testid="stSidebarNav"] { display:none !important; }
 [data-testid="stDecoration"] { display:none !important; }
 
@@ -178,6 +180,9 @@ html,body,[class*="css"]{ font-family:'Inter',sans-serif !important; }
     border-right:1px solid #1E3A5F !important;
     min-width:268px !important; max-width:268px !important;
 }
+
+
+
 [data-testid="stSidebar"] * { color:#F1F5F9 !important; }
 .sb-brand { padding:0 0 14px; border-bottom:1px solid #1E3A5F; margin-bottom:10px; }
 .sb-brand h2{ font-size:1.05rem; font-weight:700; color:#38BDF8 !important; margin:5px 0 2px; }

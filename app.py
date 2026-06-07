@@ -13,6 +13,8 @@ st.set_page_config(page_title="Supply Chain Loss Analysis",
 apply_styles()
 sidebar_nav()
 
+
+
 @st.cache_data
 def load():
     st.markdown("""
